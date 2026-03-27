@@ -1,3 +1,10 @@
+//calculate Tax
+function calculateTax(amount) {
+  return amount * 10;
+}
+
+console.log(calculateTax(1000))
+
 // Convert to uppercase
 
 function convertToUpperCase(text) {
@@ -15,14 +22,6 @@ function findMaximum(num1, num2) {
   }
 }
 console.log(findMaximum(5, 10)); 
-
-//calculate tax
-
-function calculateTax(amount) {
-  return amount * 10;
-}
-
-console.log(calculateTax(1000))
 
 //Is palindrome
 
